@@ -12,5 +12,5 @@ while rolling == True:
         rolling = False
     elif answer != 'true' or answer != 'false':
         print('I do not comprehend this unitelligent gibberish, peasant.')
-        # maybe these prints are a little too sassy lololol
+        # maybe this print is a little too sassy lololol
         answer = input('Would you like to roll the die? Please type True or False. ').lower()
